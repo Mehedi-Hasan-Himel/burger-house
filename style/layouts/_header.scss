@@ -1,3 +1,61 @@
-/* header style code start */ 
+/* header style code start */
 
-/* header style code end */ 
+header {
+  background-image: url(../../images/banner_main.jpg);
+  div {
+    display: flex;
+    justify-content: end;
+  }
+  .nav {
+    padding: 5rem 5rem 0 5rem;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  // menu style start
+  .menu {
+    margin-top: -1rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: end;
+    menu {
+      display: flex;
+      li {
+        margin-right: 3rem;
+        font-size: 2rem;
+        a {
+          &:hover {
+            border-bottom: 2px dashed #3d2514;
+          }
+        }
+      }
+    }
+  }
+  // menu style end
+  .highlight {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    &__text {
+      h3 {
+        display: inline-block;
+        font-size: 23px;
+        border: 1px dashed black;
+        margin-bottom: 0;
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 100px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bolder;
+      }
+      h2 {
+        font-size: 50px;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+/* header style code end */

@@ -1,9 +1,101 @@
 /* Common style code start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+body {
+  font-family: "Bebas Neue", cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Common style code end */
 /* header style code start */
+header {
+  background-image: url(../../images/banner_main.jpg);
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .nav {
+  padding: 5rem 5rem 0 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 6fr;
+      grid-template-columns: 6fr 6fr;
+}
+
+header .menu {
+  margin-top: -1rem;
+  margin-right: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .menu menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .menu menu li {
+  margin-right: 3rem;
+  font-size: 2rem;
+}
+
+header .menu menu li a:hover {
+  border-bottom: 2px dashed #3d2514;
+}
+
+header .highlight {
+  width: 90vw;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 6fr;
+      grid-template-columns: 6fr 6fr;
+}
+
+header .highlight__text h3 {
+  display: inline-block;
+  font-size: 23px;
+  border: 1px dashed black;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+header .highlight__text h1 {
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+header .highlight__text h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
 /* header style code end */
-/* highlights style code start */
-/* highlights style code end */
 /* products style code start */
 /* products style code end */
 /* events style code start */
