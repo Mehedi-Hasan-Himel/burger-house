@@ -1,5 +1,16 @@
 /* events style code start */
 
+.event {
+  display: flex;
+  padding: 3rem;
+  &__text {
+    text-align: center;
+  }
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+}
 
-
-/* events style code end */ 
+/* events style code end */
