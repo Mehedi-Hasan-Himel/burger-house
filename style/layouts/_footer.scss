@@ -4,7 +4,7 @@
   width: 95vw;
   height: 60vh;
   margin: 0 auto;
-  background-image: url(../../images/footer_bg.jpg);
+  background-image: url(../images/footer_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   &__text {
@@ -29,16 +29,14 @@
   }
   &__end {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     .copy {
       h4 {
         color: white;
       }
-      .link{
-        div{
-          display: flex;
-        }
-      }
+    }
+    .link {
+      display: flex !important;
     }
   }
 }

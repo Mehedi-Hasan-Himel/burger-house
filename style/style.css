@@ -242,6 +242,7 @@ header .highlight__text h2 {
 
 .products__single h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .products__single p {
@@ -285,7 +286,7 @@ header .highlight__text h2 {
   width: 95vw;
   height: 60vh;
   margin: 0 auto;
-  background-image: url(../../images/footer_bg.jpg);
+  background-image: url(../images/footer_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -316,18 +317,19 @@ header .highlight__text h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .footer__end .copy h4 {
   color: white;
 }
 
-.footer__end .copy .link div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.footer__end .link {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 
 /* footer style code end */
