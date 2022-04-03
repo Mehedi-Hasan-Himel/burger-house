@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 6fr 6fr;
   &__popular {
-    background-image: url(../../images/category1.jpg);
+    background-image: url(../images/category1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -19,7 +19,7 @@
       display: grid;
       grid-template-columns: 6fr 6fr;
       &__popular {
-        background-image: url(../../images/category1.jpg);
+        background-image: url(../images/category1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
@@ -37,12 +37,12 @@
         grid-template-columns: 12fr;
 
         &-fun {
-          background-image: url(../../images/category2.jpg);
+          background-image: url(../images/category2.jpg);
           background-repeat: no-repeat;
           background-position: center;
         }
         &-chill {
-          background-image: url(../../images/category3.jpg);
+          background-image: url(../images/category3.jpg);
           background-repeat: no-repeat;
           background-position: center;
         }
@@ -54,12 +54,12 @@
     grid-template-columns: 12fr;
 
     &-fun {
-      background-image: url(../../images/category2.jpg);
+      background-image: url(../images/category2.jpg);
       background-repeat: no-repeat;
       background-position: center;
     }
     &-chill {
-      background-image: url(../../images/category3.jpg);
+      background-image: url(../images/category3.jpg);
       background-repeat: no-repeat;
       background-position: center;
     }
