@@ -21,7 +21,7 @@ a {
 /* Common style code end */
 /* header style code start */
 header {
-  background-image: url(../../images/banner_main.jpg);
+  background-image: url(../images/banner_main.jpg);
 }
 
 header div {
@@ -281,5 +281,54 @@ header .highlight__text h2 {
 /* reservation style code start */
 /* reservation style code end */
 /* footer style code start */
+.footer {
+  width: 95vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-image: url(../../images/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+  color: white;
+}
+
+.footer__text-info p {
+  width: 50%;
+}
+
+.footer__text-contact-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__text-contact p i {
+  margin-right: 0.5rem;
+}
+
+.footer__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__end .copy h4 {
+  color: white;
+}
+
+.footer__end .copy .link div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* footer style code end */
 /*# sourceMappingURL=style.css.map */

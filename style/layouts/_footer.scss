@@ -1,3 +1,46 @@
-/* footer style code start */ 
+/* footer style code start */
 
-/* footer style code end */ 
+.footer {
+  width: 95vw;
+  height: 60vh;
+  margin: 0 auto;
+  background-image: url(../../images/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  &__text {
+    display: flex;
+    padding: 5rem;
+    color: white;
+    &-info {
+      p {
+        width: 50%;
+      }
+    }
+    &-contact {
+      &-icon {
+        display: flex;
+      }
+      p {
+        i {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+  &__end {
+    display: flex;
+    justify-content: space-around;
+    .copy {
+      h4 {
+        color: white;
+      }
+      .link{
+        div{
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+/* footer style code end */
